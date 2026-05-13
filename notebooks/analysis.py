@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv("../data/sales.csv")
+df = pd.read_csv("../data/sales.csv", encoding="latin1")
 
 # Show first 5 rows
 print(df.head())
